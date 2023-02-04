@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;    
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {    
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.row {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.datepicker {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+.datepicker_item__label {
+    font-family: "Inter", serif;
+    font-size: 16px;
+    margin-right: 10px;
+    text-transform: capitalize;
+}
+.datepicker_item:first-child .datepicker_item__input {
+    margin-right: 10px;
+}
